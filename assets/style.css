@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "SWCrawlBody";
+    src: url(../assets/SWCrawlBody.ttf) format("truetype");
+}
+
+body {
+  background: black;
+  font-family: "SWCrawlBody", arial;
+  color: rgb(229, 177, 58);
+}
+
+.text {
+  width: 700px;
+  height: 700px;
+  -webkit-transform: rotateX(60deg);
+}
+
+.crawl {
+  text-align: center;
+  margin: 20px auto;
+  width: 700px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 600px;
+  -webkit-transform-origin: 50% 0;
+}
+
+p {
+  font-size: 80px;
+  line-height: 24px;
+}
+
+#bg-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
