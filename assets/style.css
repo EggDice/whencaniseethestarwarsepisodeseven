@@ -12,7 +12,7 @@ body {
 .text {
   width: 700px;
   height: 700px;
-  -webkit-transform: rotateX(60deg);
+  -webkit-transform: rotateX(45deg);
 }
 
 .crawl {
