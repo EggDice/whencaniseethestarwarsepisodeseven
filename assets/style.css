@@ -19,7 +19,6 @@ body {
   text-align: center;
   margin: 20px auto;
   width: 700px;
-  -webkit-transform-style: preserve-3d;
   -webkit-perspective: 600px;
   -webkit-transform-origin: 50% 0;
 }
