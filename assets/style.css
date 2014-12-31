@@ -13,6 +13,9 @@ body {
   width: 700px;
   height: 700px;
   -webkit-transform: rotateX(45deg);
+  -moz-transform: rotateX(45deg);
+  -ms-transform: rotateX(45deg);
+  transform: rotateX(45deg);
 }
 
 .crawl {
@@ -20,7 +23,13 @@ body {
   margin: 20px auto;
   width: 700px;
   -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -ms-perspective: 600px;
+  perspective: 600px;
   -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
 }
 
 p {
@@ -34,5 +43,6 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
+  z-index: -1;
 }
 
